@@ -74,14 +74,18 @@ export default function App() {
     </div>
     </center>
     <br />
-<center style={{marginTop:'30px'}}>
+<center style={{marginTop:'0px'}}>
+<div style={{marginLeft:'-200px'}}>
 <button className='btn-danger' onClick={pam4}>PAM-4</button>
 <button className='btn-primary' onClick={pam3}>PAM-3</button>
 <button className='btn-danger' onClick={sure2}>SURE-2</button>
+</div>
 <br />
+<div style={{marginLeft:'-35px'}}>
 {mpam4 && <Pamutation4 />}
 {mpam3 && <Pamutation3 />}
 {msure2 && <Sure2 />}
+</div>
 </center>
 
 

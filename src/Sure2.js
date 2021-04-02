@@ -104,7 +104,7 @@ const BetResult = ()=>{
     }
 
 return (<>
-                <center style={{marginLeft: '450px', marginTop:'50px' }}>
+                <center style={{marginLeft: '400px', marginTop:'50px' }}>
         <div className='row' >
         
         <div className='col-xs-2' style={{marginLeft:'30px',height:'230px', width:'230px', border:'solid', borderRadius:'50%', backgroundColor:'blue'}} >
