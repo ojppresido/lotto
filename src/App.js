@@ -75,7 +75,7 @@ export default function App() {
     </center>
     <br />
 <center style={{marginTop:'0px'}}>
-<div style={{marginLeft:'-50px'}}>
+<div style={{marginLeft:'-75px'}}>
 <button className='btn-danger' onClick={pam4}>PAM-4</button>
 <button className='btn-primary' onClick={pam3}>PAM-3</button>
 <button className='btn-danger' onClick={sure2}>SURE-2</button>
