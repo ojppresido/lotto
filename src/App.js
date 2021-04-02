@@ -16,6 +16,7 @@ export default function App() {
   // const mslot1 = [parseInt (slot1)]
   // const mslot2 = [parseInt (slot2)]
   // const mslot3 = [parseInt (slot3)]
+
   // const mslot4 = [parseInt (slot4)]
 // const ck = ()=>{ 
 //   return [Math.floor(Math.random() * 12)]
@@ -72,10 +73,12 @@ export default function App() {
     {five5 ? <Fivem /> : <Five />}  
     </div>
     </center>
+    <br />
 <center style={{marginTop:'30px'}}>
 <button className='btn-danger' onClick={pam4}>PAM-4</button>
 <button className='btn-primary' onClick={pam3}>PAM-3</button>
 <button className='btn-danger' onClick={sure2}>SURE-2</button>
+<br />
 {mpam4 && <Pamutation4 />}
 {mpam3 && <Pamutation3 />}
 {msure2 && <Sure2 />}
