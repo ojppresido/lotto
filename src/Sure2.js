@@ -1,12 +1,12 @@
-import React, {useEffect, useState} from 'react'
+import React, { useState} from 'react'
 import { useGlobalContext } from './Context';
 
 
 const Pamutation4 = () => {
 
-const {first, second, third, fourth, fifth, handlemark, handleslot1, handleslot2, handleslot3, handleslot4,
-        setInput, setInput2, setInput3, setInput4, one1, two2, three3, four4, five5, input, input2, input3,
-        input4, slot1, slot2, slot3, slot4, bet, fees, mfees, betamount,mok1, mok2 } = useGlobalContext();
+const {handleslot1, handleslot2,
+      setInput, setInput2, input, input2,
+       slot1, slot2, fees, mfees} = useGlobalContext();
       
 
 const [betty, setBetty] = useState(false);

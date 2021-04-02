@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import One,{Onem} from './One';
 import Two, {Twom} from './Two';
 import Three, {Threem} from './Three';
@@ -11,16 +10,16 @@ import Sure2 from './Sure2';
 
 
 export default function App() {
-  const { one1, two2, three3, four4, five5, slot1, slot2, slot3, slot4, bet, fees, mfees, sure2, msure2, pam3, pam4, mpam3, mpam4, betamount} = useGlobalContext();
+  const { one1, two2, three3, four4, five5, sure2, msure2, pam3, pam4, mpam3, mpam4} = useGlobalContext();
 
 
-  const mslot1 = [parseInt (slot1)]
-  const mslot2 = [parseInt (slot2)]
-  const mslot3 = [parseInt (slot3)]
-  const mslot4 = [parseInt (slot4)]
-const ck = ()=>{ 
-  return [Math.floor(Math.random() * 12)]
-  }
+  // const mslot1 = [parseInt (slot1)]
+  // const mslot2 = [parseInt (slot2)]
+  // const mslot3 = [parseInt (slot3)]
+  // const mslot4 = [parseInt (slot4)]
+// const ck = ()=>{ 
+//   return [Math.floor(Math.random() * 12)]
+//   }
 
 // console.log(ck(12))
 // const buz = 'c'

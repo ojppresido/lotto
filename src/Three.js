@@ -5,7 +5,7 @@ import { useGlobalContext } from './Context';
 
 
 const Three = () => {
-  const {first, second, third, fourth,fifth } = useGlobalContext();
+  const {third} = useGlobalContext();
   // const [pk1, setpk1] = useState('');
   // const [pk2, setpk2] = useState('');
   const [pk3, setpk3] = useState('');

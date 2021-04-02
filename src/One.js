@@ -7,7 +7,7 @@ import { useGlobalContext } from './Context';
 const One = () => {
 
 
-  const {first, mok1, second, third, fourth,fifth} = useGlobalContext();
+  const {first} = useGlobalContext();
   const [pk1, setpk1] = useState('');
 // const [pk2, setpk2] = useState('');
 // const [pk3, setpk3] = useState('');
