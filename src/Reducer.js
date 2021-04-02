@@ -51,11 +51,11 @@ const Reducer = (state, action)=>{
     //     return {...state, one1:!state.one1, two2:!state.two2, three3:!state.three3,
     //     four4:!state.four4, five5:!state.five5, first: [Math.floor(Math.random() *5)], second:[Math.floor(Math.random() *5)], third:[Math.floor(Math.random() *50)], fourth:[Math.floor(Math.random() *50)], fifth:[Math.floor(Math.random() *50)]}
     // }
-    if(action.type==='UP'){
-        return {...state, mok1:state.first, mok2:state.second, mok3:state.third,
-            mok4:state.fourth, mok5:state.fifth, one1:false, two2:false, three3:false,
-            four4:false, five5:false, }
-    }
+    // if(action.type==='UP'){
+    //     return {...state, mok1:state.first, mok2:state.second, mok3:state.third,
+    //         mok4:state.fourth, mok5:state.fifth, one1:false, two2:false, three3:false,
+    //         four4:false, five5:false, }
+    // }
     if(action.type==='SOIL'){
         return {...state, one1:false, two2:false, three3:false,
             four4:false, five5:false, first: [Math.floor(Math.random() * 10) + 1], second:[Math.floor(Math.random() * 10) + 1], third:[Math.floor(Math.random() * 10) + 1], fourth:[Math.floor(Math.random() * 10) + 1], fifth:[Math.floor(Math.random()* 10) + 1]}

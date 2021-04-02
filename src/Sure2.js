@@ -51,7 +51,6 @@ const [jug, setjug] = useState(true)
 //         </>
 //     };
 
-console.log(slot2)
 
 const handjuga = ()=>{
     setjug(slot2 < 1 || slot1 < 1 || fees < 50 ? true : !jug);
@@ -145,8 +144,6 @@ return (<>
         <button className='btn btn-primary ' onClick={handjuga}
         style={{backgroundColor:'blue', width:'200px'}}>{jug ? 'PLACE A BET' : 'PLACE ANOTHER BET'}
         </button> 
-        {/* <button className='btn btn-primary ' onClick={handjugb} style={{backgroundColor:'blue', width:'200px'}}>PLACE ANOTHER BET */}
-        {/* </button>} */}
         
         </div>
         <div>{betty && <BetResult />}

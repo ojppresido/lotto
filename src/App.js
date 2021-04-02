@@ -11,9 +11,7 @@ import Sure2 from './Sure2';
 
 
 export default function App() {
-  const {first, second, third, fourth, fifth, handlemark, handleslot1, handleslot2, handleslot3, handleslot4,
-  setInput, setInput2, setInput3, setInput4, one1, two2, three3, four4, five5, input, input2, input3,
-  input4, slot1, slot2, slot3, slot4, bet, fees, mfees, sure2, msure2, pam3, pam4, mpam3, mpam4, betamount} = useGlobalContext();
+  const { one1, two2, three3, four4, five5, slot1, slot2, slot3, slot4, bet, fees, mfees, sure2, msure2, pam3, pam4, mpam3, mpam4, betamount} = useGlobalContext();
 
 
   const mslot1 = [parseInt (slot1)]

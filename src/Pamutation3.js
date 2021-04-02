@@ -4,14 +4,13 @@ import { useGlobalContext } from './Context';
 
 const Pamutation4 = () => {
 
-  const {first, second, third, fourth, fifth, handlemark, handleslot1, handleslot2, handleslot3, handleslot4,
-    setInput, setInput2, setInput3, setInput4, one1, two2, three3, four4, five5, input, input2, input3,
-    input4, slot1, slot2, slot3, slot4, bet, fees, mfees, betamount,mok1, mok2 } = useGlobalContext();
+  const {handleslot1, handleslot2, handleslot3,
+    setInput, setInput2, setInput3, input, input2, input3,
+    slot1, slot2, slot3, fees, mfees} = useGlobalContext();
   
 
 const [betty, setBetty] = useState(false);
 const [jug, setjug] = useState(true)
-console.log(slot2)
 
 const handjuga = ()=>{
 setjug(slot1 < 1 || slot2 < 1 || slot3 < 1 || fees < 50 ? true : !jug);

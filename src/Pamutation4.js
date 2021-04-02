@@ -1,9 +1,4 @@
 import React, {useState} from 'react'
-import One,{Onem} from './One';
-import Two, {Twom} from './Two';
-import Three, {Threem} from './Three';
-import Four, {Fourm} from './Four';
-import Five, {Fivem} from './Five';
 import { useGlobalContext } from './Context';
 
 
@@ -17,7 +12,6 @@ const {first, second, third, fourth, fifth, handlemark, handleslot1, handleslot2
 
 const [betty, setBetty] = useState(false);
 const [jug, setjug] = useState(true)
-console.log(slot2)
 
 const handjuga = ()=>{
 setjug(slot1 < 1 || slot2 < 1 || slot3 < 1 || slot4 < 1 || fees < 50 ? true : !jug);
