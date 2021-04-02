@@ -63,7 +63,7 @@ export default function App() {
 
 
   return (
-    <article style={{marginLeft:'85px'}}>
+    <article style={{marginLeft:'0px'}}>
       <center style={{marginLeft: '0px', marginTop:'50px' }}>
     <div className='row' >
     {one1 ? <Onem /> : <One /> }
